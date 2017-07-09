@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#99CC00"
+
+    tools:context="com.example.vaksys_49.all_apps.MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <Button
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:background="#FFCC00"
+            android:onClick="process"
+            android:text="map" />
+
+            <Button
+                android:id="@+id/market"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="4dp"
+                android:background="#FFCC00"
+                android:onClick="process"
+                android:text="market"
+                />
+            <Button
+                android:id="@+id/sendemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="4dp"
+                android:background="#FFCC00"
+                android:onClick="process"
+                android:text="send_email"
+               />
+            <Button
+                android:id="@+id/sendimage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="4dp"
+                android:background="#FFCC00"
+                android:onClick="process"
+                android:text="send_image"
+                />
+            <Button
+                android:id="@+id/sendimages"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFCC00"
+                android:onClick="process"
+                android:text="send_images"
+               />
+            <Button
+                android:id="@+id/facebook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="4dp"
+                android:background="#FFCC00"
+                android:onClick="process"
+                android:text="Facebook"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>
